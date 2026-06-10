@@ -56,7 +56,9 @@ nav a[aria-current='page'] {
   /*border-bottom: #555 solid 3px;*/
   box-shadow: 5px 4px darkgray;
 }
-
+nav a:hover{
+background-color: rgb(110, 104, 105);
+}
 /*fin de nav*/
 /*comienzo de main*/
 section {
@@ -87,17 +89,17 @@ section div {
 }
 
 #eeuu {
-  background-image: url(../img/canada.png);
+  background-image: url(../img/eeuu.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #mx {
-  background-image: url();
+  background-image: url(../img/mexico.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #can {
-  background-image: url(../imagenes/canada.png);
+  background-image: url(../img/canada.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -111,7 +113,42 @@ section div {
 #presentacion {
   height: 600px;
 }
+
+.videos_locales{
+  background-color: #aaaaaa71;
+  width: 630px;
+  height: 320px;
+  border:#000 solid 7px;
+  box-shadow: #555 5px 2px;
+  text-align:center;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 /*fin de main*/
+/*pagina de estadios*/
+.estadosunidos h2{
+  text-align: center;
+}
+.mexico h2{
+  text-align: center;
+}
+.Canada h2{
+  text-align: center;
+}
+table, tr, td,th{
+  border: solid red 2px;
+  border-collapse: collapse;
+  width: 400px;
+  margin: 0 auto;
+  }
+  tr :hover{
+  background-color: #555;
+  }
+  td img{
+  width: 200px;
+  }
+
+
 /*comienzo de footer*/
 
 footer {

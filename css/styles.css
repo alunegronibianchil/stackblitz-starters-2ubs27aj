@@ -196,7 +196,7 @@ h1 {
 }
 /*campeones******/
 
-/****** /* contenedor principal: divide el disñeo en dos columnas (continente y paises) */
+/******contenedor principal: divide el disñeo en dos columnas (continente y paises) */
 
 .campeones {
   display: grid;

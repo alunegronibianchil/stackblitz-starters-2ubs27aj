@@ -35,7 +35,43 @@
       <a href="entradas.html"class="activo">Entradas</a>
       </nav>
 
-    <main></main>
+    <main>
+      <h2>Encuesta o datos de las entradas</h2>
+    <p>Ingrese sus datos para realizar la reserva de la entrada</p>
+    <section>
+      <div id="formulario">
+        <h2>Tus datos</h2>
+        <form action="#">
+          <label for="fornombre">Nombre</label>
+          <input type="text" name="fornombre" id="fornombre" maxlength="30" minlength="3" required
+            placeholder="Ingrese su nombre">
+          <label for="formapellido">Apellido</label>
+          <input type="text" name="formapellido" id="formapellido" maxlength="30" minlength="3" required
+            placeholder="Ingrese su apellido">
+          <input id="formedad" type="number" required placeholder="Ingrese su edad">
+          <input id="formclave" type="password" required placeholder="Ingrese la palabra secreta">
+
+          <input type="email" placeholder="lourdesnegronib@com.ar">
+          <input type="radio" id="formf" name="formsexo" value="femenino">
+          <label for="fem">Femenino</label>
+          <input type="radio" id="formm" name="formsexo" value="masculino">
+          <label for="fem">Masculino</label>
+          <input type="radio" id="formn" name="formsexo" value="no decirlo">
+          <label for="fem">No decirlo</label><br><br>
+          <label for="ubicaciones">Seleccione una ubicacion</label><br>
+          <select name="uicacion" id="formubi">
+            <option value="plateaa">Platea Alta</option>
+            <option value="plateaa">Platea Media</option>
+            <option value="plateaa">Platea Baja</option>
+          </select>
+
+          <input type="submit">
+
+        </form>
+      </div>
+    </section>
+
+  </main>
     <footer>
       <div id="colegio">
         <h3>colegio</h3>
